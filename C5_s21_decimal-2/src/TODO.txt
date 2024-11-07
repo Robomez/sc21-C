@@ -1,0 +1,93 @@
+** Двоичное представление
+typedef struct { int bits[4]; } s21_decimal; 
+typedef struct { int bits[7]; } s21_big;  (6 значащих int и последний как в decimal знак с экспонентой)
+** При обращении в функциях называю число целиком decimal, (s21_decimal decimal)
+  отдельный unsigned int в массиве bits - number, (uint32_t number)
+  позиция отдельного бита - position. 
+  например s21_bit_get(uint32_t number, int position)
+** Операции:
+& логическое "и" (and)
+| логическое "или" (or)
+^ исключающее "или" (xor)
+<< сдвиг влево
+>> сдвиг вправо
+~ инвертировать (из 1101 сделается 0010)
+
+__________________
+
+Основные функции:
+Арифметические операторы
+V  Сложение + int s21_add(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
+V  Вычитание	-	int s21_sub(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
+V  Умножение	*	int s21_mul(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
+L  Деление	/	int s21_div(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
+
+Операторы сравнения
+V  Меньше	<	int s21_is_less(s21_decimal, s21_decimal)
+V  Меньше или равно	<=	int s21_is_less_or_equal(s21_decimal, s21_decimal)
+V  Больше	>	int s21_is_greater(s21_decimal, s21_decimal)
+V  Больше или равно	>=	int s21_is_greater_or_equal(s21_decimal, s21_decimal)
+V  Равно	==	int s21_is_equal(s21_decimal, s21_decimal)
+V  Не равно	!=	int s21_is_not_equal(s21_decimal, s21_decimal)
+
+Преобразователи
+V  Из int,	int s21_from_int_to_decimal(int src, s21_decimal *dst)
+V  Из float,	int s21_from_float_to_decimal(float src, s21_decimal *dst)
+V  В int,	int s21_from_decimal_to_int(s21_decimal src, int *dst)
+V  В float,	int s21_from_decimal_to_float(s21_decimal src, float *dst)
+
+Другие функции
+V  int s21_floor(s21_decimal value, s21_decimal *result)
+V  int s21_round(s21_decimal value, s21_decimal *result)
+V  int s21_truncate(s21_decimal value, s21_decimal *result)
+V int s21_negate(s21_decimal value, s21_decimal *result)
+
+__________________
+
+Вспомогательные функции
+V  s21_bit_get (получает значение указанного бита указанного number)
+V  s21_bit_set  (устанавливает бит в заданную позицию заданного number)
+V  s21_bit_reverse
+V  s21_decimal_sign_get (получает знак децимала)
+V  s21_decimal_sign_set (задаёт знак децимала)
+V  s21_decimal_precision_get (получает степень децимала)
+V  s21_decimal_precision_set (устанавливает степень децмала)
+V  s21_big_precision_get (получает степень бига)
+V  s21_big_precision_set (устанавливает степень бига)
+  ?s21_mantissa_get (s21_from_decimal_to_int)??
+  ?s21_mantissa_mult
+  ?s21_mantissa_div
+V  s21_normalize
+  ?s21_count_meaning_bits (для проверки переполнения мантиссы при умножении)
+V  s21_number_shift_left(int)
+V  s21_number_shift_right(int)
+V  s21_decimal_shift_left(s21_decimal)
+V  s21_decimal_shift_right(s21_decimal)
+V  s21_big_shift_left(s21_big_decimal)
+V  s21_big_shift_right(s21_big_decimal)
+
+V  s21_numbers_add
+  ?s21_numbers_sub
+V  s21_big_mantissa_add
+V  s21_big_mantissa_sub (вычитаем из большей мантиссы меньшую)
+  ?s21_mul10(s21_decimal)
+V  s21_decimal_div10 (делит decimal)
+V  s21_big_mul10(s21_decimal)
+V  s21_big_div10(s21_decimal)
+
+V  big_print_binary
+V  big_print_denary
+V  big_print_hex
+V  big_print_hex_oneline
+V  decimal_print_binary
+V  decimal_print_denary
+V  decimal_print_hex
+V  number_print_binary
+V  number_print_denary
+V  number_print_hex
+
+V  int s21_big_to_decimal(s21_big big, s21_decimal *decimal)
+V  s21_decimal_to_big(s21_decimal) вернёт s21_big
+V  s21_is_decimal_ok(s21_decimal)
+V  s21_decimal_to_null(s21_decimal *decimal)
+V  s21_big_to_null(s21_big *big)

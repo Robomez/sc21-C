@@ -1,0 +1,235 @@
+
+-b -e test_files/test1.txt
+-e -b test_files/test1.txt
+-b -e -n test_files/test1.txt
+-b -e -s test_files/test1.txt
+-b -e -t test_files/test1.txt
+-b -e -v test_files/test1.txt
+-b -n -e test_files/test1.txt
+-b -s -e test_files/test1.txt
+-b -t -e test_files/test1.txt
+-b -v -e test_files/test1.txt
+-e -b -n test_files/test1.txt
+-e -b -s test_files/test1.txt
+-e -b -t test_files/test1.txt
+-e -b -v test_files/test1.txt
+-e -n -b test_files/test1.txt
+-e -s -b test_files/test1.txt
+-e -t -b test_files/test1.txt
+-e -v -b test_files/test1.txt
+-n -b -e test_files/test1.txt
+-n -e -b test_files/test1.txt
+-s -b -e test_files/test1.txt
+-s -e -b test_files/test1.txt
+-t -b -e test_files/test1.txt
+-t -e -b test_files/test1.txt
+-v -b -e test_files/test1.txt
+-v -e -b test_files/test1.txt
+-bbe  test_files/test1.txt
+-bbe  test_files/test1.txt test_files/test2.txt
+-bbn  test_files/test1.txt test_files/test2.txt
+-bbs  test_files/test1.txt test_files/test2.txt
+-bbt  test_files/test1.txt test_files/test2.txt
+-bbv  test_files/test1.txt test_files/test2.txt
+-beb  test_files/test1.txt
+-beb  test_files/test1.txt test_files/test2.txt
+-ben  test_files/test1.txt
+-ben  test_files/test1.txt test_files/test2.txt
+-bes  test_files/test1.txt
+-bes  test_files/test1.txt test_files/test2.txt
+-bet  test_files/test1.txt
+-bet  test_files/test1.txt test_files/test2.txt
+-bev  test_files/test1.txt
+-bev  test_files/test1.txt test_files/test2.txt
+-bnb  test_files/test1.txt test_files/test2.txt
+-bne  test_files/test1.txt
+-bne  test_files/test1.txt test_files/test2.txt
+-bns  test_files/test1.txt test_files/test2.txt
+-bnt  test_files/test1.txt test_files/test2.txt
+-bnv  test_files/test1.txt test_files/test2.txt
+-bsb  test_files/test1.txt test_files/test2.txt
+-bse  test_files/test1.txt
+-bse  test_files/test1.txt test_files/test2.txt
+-bsn  test_files/test1.txt test_files/test2.txt
+-bst  test_files/test1.txt test_files/test2.txt
+-bsv  test_files/test1.txt test_files/test2.txt
+-btb  test_files/test1.txt test_files/test2.txt
+-bte  test_files/test1.txt
+-bte  test_files/test1.txt test_files/test2.txt
+-btn  test_files/test1.txt test_files/test2.txt
+-bts  test_files/test1.txt test_files/test2.txt
+-btv  test_files/test1.txt test_files/test2.txt
+-bvb  test_files/test1.txt test_files/test2.txt
+-bve  test_files/test1.txt
+-bve  test_files/test1.txt test_files/test2.txt
+-bvn  test_files/test1.txt test_files/test2.txt
+-bvs  test_files/test1.txt test_files/test2.txt
+-bvt  test_files/test1.txt test_files/test2.txt
+-ebe  test_files/test1.txt
+-ebe  test_files/test1.txt test_files/test2.txt
+-ebn  test_files/test1.txt
+-ebn  test_files/test1.txt test_files/test2.txt
+-ebs  test_files/test1.txt
+-ebs  test_files/test1.txt test_files/test2.txt
+-ebt  test_files/test1.txt
+-ebt  test_files/test1.txt test_files/test2.txt
+-ebv  test_files/test1.txt
+-ebv  test_files/test1.txt test_files/test2.txt
+-eeb  test_files/test1.txt
+-eeb  test_files/test1.txt test_files/test2.txt
+-een  test_files/test1.txt test_files/test2.txt
+-ees  test_files/test1.txt test_files/test2.txt
+-eet  test_files/test1.txt test_files/test2.txt
+-eev  test_files/test1.txt test_files/test2.txt
+-enb  test_files/test1.txt
+-enb  test_files/test1.txt test_files/test2.txt
+-ene  test_files/test1.txt test_files/test2.txt
+-ens  test_files/test1.txt test_files/test2.txt
+-ent  test_files/test1.txt test_files/test2.txt
+-env  test_files/test1.txt test_files/test2.txt
+-esb  test_files/test1.txt
+-esb  test_files/test1.txt test_files/test2.txt
+-ese  test_files/test1.txt test_files/test2.txt
+-esn  test_files/test1.txt test_files/test2.txt
+-est  test_files/test1.txt test_files/test2.txt
+-esv  test_files/test1.txt test_files/test2.txt
+-etb  test_files/test1.txt
+-etb  test_files/test1.txt test_files/test2.txt
+-ete  test_files/test1.txt test_files/test2.txt
+-etn  test_files/test1.txt test_files/test2.txt
+-ets  test_files/test1.txt test_files/test2.txt
+-etv  test_files/test1.txt test_files/test2.txt
+-evb  test_files/test1.txt
+-evb  test_files/test1.txt test_files/test2.txt
+-eve  test_files/test1.txt test_files/test2.txt
+-evn  test_files/test1.txt test_files/test2.txt
+-evs  test_files/test1.txt test_files/test2.txt
+-evt  test_files/test1.txt test_files/test2.txt
+-nbe  test_files/test1.txt
+-nbe  test_files/test1.txt test_files/test2.txt
+-nbn  test_files/test1.txt test_files/test2.txt
+-nbs  test_files/test1.txt test_files/test2.txt
+-nbt  test_files/test1.txt test_files/test2.txt
+-nbv  test_files/test1.txt test_files/test2.txt
+-neb  test_files/test1.txt
+-neb  test_files/test1.txt test_files/test2.txt
+-nen  test_files/test1.txt test_files/test2.txt
+-nes  test_files/test1.txt test_files/test2.txt
+-net  test_files/test1.txt test_files/test2.txt
+-nev  test_files/test1.txt test_files/test2.txt
+-nnb  test_files/test1.txt test_files/test2.txt
+-nne  test_files/test1.txt test_files/test2.txt
+-nns  test_files/test1.txt test_files/test2.txt
+-nnt  test_files/test1.txt test_files/test2.txt
+-nnv  test_files/test1.txt test_files/test2.txt
+-nsb  test_files/test1.txt test_files/test2.txt
+-nse  test_files/test1.txt test_files/test2.txt
+-nsn  test_files/test1.txt test_files/test2.txt
+-nst  test_files/test1.txt test_files/test2.txt
+-nsv  test_files/test1.txt test_files/test2.txt
+-ntb  test_files/test1.txt test_files/test2.txt
+-nte  test_files/test1.txt test_files/test2.txt
+-ntn  test_files/test1.txt test_files/test2.txt
+-nts  test_files/test1.txt test_files/test2.txt
+-ntv  test_files/test1.txt test_files/test2.txt
+-nvb  test_files/test1.txt test_files/test2.txt
+-nve  test_files/test1.txt test_files/test2.txt
+-nvn  test_files/test1.txt test_files/test2.txt
+-nvs  test_files/test1.txt test_files/test2.txt
+-nvt  test_files/test1.txt test_files/test2.txt
+-sbe  test_files/test1.txt
+-sbe  test_files/test1.txt test_files/test2.txt
+-sbn  test_files/test1.txt test_files/test2.txt
+-sbs  test_files/test1.txt test_files/test2.txt
+-sbt  test_files/test1.txt test_files/test2.txt
+-sbv  test_files/test1.txt test_files/test2.txt
+-seb  test_files/test1.txt
+-seb  test_files/test1.txt test_files/test2.txt
+-sen  test_files/test1.txt test_files/test2.txt
+-ses  test_files/test1.txt test_files/test2.txt
+-set  test_files/test1.txt test_files/test2.txt
+-sev  test_files/test1.txt test_files/test2.txt
+-snb  test_files/test1.txt test_files/test2.txt
+-sne  test_files/test1.txt test_files/test2.txt
+-sns  test_files/test1.txt test_files/test2.txt
+-snt  test_files/test1.txt test_files/test2.txt
+-snv  test_files/test1.txt test_files/test2.txt
+-ssb  test_files/test1.txt test_files/test2.txt
+-sse  test_files/test1.txt test_files/test2.txt
+-ssn  test_files/test1.txt test_files/test2.txt
+-sst  test_files/test1.txt test_files/test2.txt
+-ssv  test_files/test1.txt test_files/test2.txt
+-stb  test_files/test1.txt test_files/test2.txt
+-ste  test_files/test1.txt test_files/test2.txt
+-stn  test_files/test1.txt test_files/test2.txt
+-sts  test_files/test1.txt test_files/test2.txt
+-stv  test_files/test1.txt test_files/test2.txt
+-svb  test_files/test1.txt test_files/test2.txt
+-sve  test_files/test1.txt test_files/test2.txt
+-svn  test_files/test1.txt test_files/test2.txt
+-svs  test_files/test1.txt test_files/test2.txt
+-svt  test_files/test1.txt test_files/test2.txt
+-tbe  test_files/test1.txt
+-tbe  test_files/test1.txt test_files/test2.txt
+-tbn  test_files/test1.txt test_files/test2.txt
+-tbs  test_files/test1.txt test_files/test2.txt
+-tbt  test_files/test1.txt test_files/test2.txt
+-tbv  test_files/test1.txt test_files/test2.txt
+-teb  test_files/test1.txt
+-teb  test_files/test1.txt test_files/test2.txt
+-ten  test_files/test1.txt test_files/test2.txt
+-tes  test_files/test1.txt test_files/test2.txt
+-tet  test_files/test1.txt test_files/test2.txt
+-tev  test_files/test1.txt test_files/test2.txt
+-tnb  test_files/test1.txt test_files/test2.txt
+-tne  test_files/test1.txt test_files/test2.txt
+-tns  test_files/test1.txt test_files/test2.txt
+-tnt  test_files/test1.txt test_files/test2.txt
+-tnv  test_files/test1.txt test_files/test2.txt
+-tsb  test_files/test1.txt test_files/test2.txt
+-tse  test_files/test1.txt test_files/test2.txt
+-tsn  test_files/test1.txt test_files/test2.txt
+-tst  test_files/test1.txt test_files/test2.txt
+-tsv  test_files/test1.txt test_files/test2.txt
+-ttb  test_files/test1.txt test_files/test2.txt
+-tte  test_files/test1.txt test_files/test2.txt
+-ttn  test_files/test1.txt test_files/test2.txt
+-tts  test_files/test1.txt test_files/test2.txt
+-ttv  test_files/test1.txt test_files/test2.txt
+-tvb  test_files/test1.txt test_files/test2.txt
+-tve  test_files/test1.txt test_files/test2.txt
+-tvn  test_files/test1.txt test_files/test2.txt
+-tvs  test_files/test1.txt test_files/test2.txt
+-tvt  test_files/test1.txt test_files/test2.txt
+-vbe  test_files/test1.txt
+-vbe  test_files/test1.txt test_files/test2.txt
+-vbn  test_files/test1.txt test_files/test2.txt
+-vbs  test_files/test1.txt test_files/test2.txt
+-vbt  test_files/test1.txt test_files/test2.txt
+-vbv  test_files/test1.txt test_files/test2.txt
+-veb  test_files/test1.txt
+-veb  test_files/test1.txt test_files/test2.txt
+-ven  test_files/test1.txt test_files/test2.txt
+-ves  test_files/test1.txt test_files/test2.txt
+-vet  test_files/test1.txt test_files/test2.txt
+-vev  test_files/test1.txt test_files/test2.txt
+-vnb  test_files/test1.txt test_files/test2.txt
+-vne  test_files/test1.txt test_files/test2.txt
+-vns  test_files/test1.txt test_files/test2.txt
+-vnt  test_files/test1.txt test_files/test2.txt
+-vnv  test_files/test1.txt test_files/test2.txt
+-vsb  test_files/test1.txt test_files/test2.txt
+-vse  test_files/test1.txt test_files/test2.txt
+-vsn  test_files/test1.txt test_files/test2.txt
+-vst  test_files/test1.txt test_files/test2.txt
+-vsv  test_files/test1.txt test_files/test2.txt
+-vtb  test_files/test1.txt test_files/test2.txt
+-vte  test_files/test1.txt test_files/test2.txt
+-vtn  test_files/test1.txt test_files/test2.txt
+-vts  test_files/test1.txt test_files/test2.txt
+-vtv  test_files/test1.txt test_files/test2.txt
+-vvb  test_files/test1.txt test_files/test2.txt
+-vve  test_files/test1.txt test_files/test2.txt
+-vvn  test_files/test1.txt test_files/test2.txt
+-vvs  test_files/test1.txt test_files/test2.txt
+-vvt  test_files/test1.txt test_files/test2.txt

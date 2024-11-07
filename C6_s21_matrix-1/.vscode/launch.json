@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cepa debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "/home/poklad/projects/sc21/C6_s21_matrix-1/src/${fileBasenameNoExtension}",
+            "args": [
+            ],
+            "cwd": "/home/poklad/projects/sc21/C6_s21_matrix-1/src",
+            "preLaunchTask": "C/C++: gcc build active file",
+        }
+    ]
+}
